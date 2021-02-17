@@ -1,3 +1,48 @@
+# Test Aplikasi-PT Kano Teknologi Utama
+
+## E-mail :
+- [x] create grid page, use source companies.csv, and use paging regarding the data being too big.
+- [ ] Filter by: Company Name, Client Tier, Segment Name.
+- [x] Please keep in mind, data are divided into 2 years for 14 and 15.
+- [x] When click company and go into company detail, we would like to see a graph to view number comparison between Y14 and Y15 for numerical data points and we can update those number as well. Please create similar with picture from drobox.
+- [x] Kindly Create, update function when we update value of graph and when push re-submit button will update data and graph also.
+
+## Notes :
+- [x] create grid page, use source companies.csv
+- [ ] Filter by: Company Name, Client Tier, Segment Name.
+- [x] When click company and go into company detail and graphs.
+- [x] when we update data, value of graph will updated.
+- [x] when we update data, value will updated.
+
+## Requirements
+I'm using :
+- PHP 7.3.24
+- Composer version 2.0.8
+- laravel/framework 5.5.*
+
+## Contributing
+
+Thank you for saving me:
+- league/csv:^8.0
+- khill/lavacharts:^3.1.*
+- Many, many thanks to Grand Master Google :D
+
+## How to Run
+
+- copy .env.example to .env
+- run the following command in your terminal:
+
+        composer install
+        php artisan key:generate
+        php artisan storage:link
+        
+- you can access the application in your web browser at:
+
+        http://localhost:8000
+
+##
+##
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
@@ -20,33 +65,6 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
-
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
